@@ -13,22 +13,5 @@ client.configure({
     }
 });
 
-/*
-client.onUnhandledMessage= (...titi) => {
-    console.log("Message", ...titi)
-};
-client.onDisconnect= (...titi) => {
-    console.log("Disconnect",...titi)
-};
-client.onStompError= (...titi) => {
-    console.log("StompError", ...titi)
-};
-client.onWebSocketClose = (...titi) => {
-    //console.log('close', ...titi)
-};
-client.onWebSocketError= (...titi) => {
-    console.log('WSError', ...titi)
-};
-*/
 client.activate();
 
